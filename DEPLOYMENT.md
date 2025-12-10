@@ -63,8 +63,10 @@ This guide will walk you through deploying your Todo App to Render.
    - **Region**: Same as backend
    - **Branch**: `main`
    - **Root Directory**: `frontend`
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm ci --include=dev && npm run build`
    - **Start Command**: `npx serve -s dist -l 10000`
+   
+   > 💡 **Alternative if that doesn't work**: Use `npm install --include=dev && npm run build`
    - **Plan**: Free
 
 4. **Environment Variables**:
