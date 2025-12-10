@@ -48,9 +48,7 @@ Since Root Directory might not be visible, we'll use commands with directory pat
    Region: (same as backend)
    Branch: main
    
-   Build Command: cd frontend && npm ci --include=dev && npm run build
-   
-   > 💡 If that fails, try: `cd frontend && npm install --include=dev && npm run build`
+   Build Command: cd frontend && npm install && npm run build
    Start Command: cd frontend && npx serve -s dist -l 10000
    
    Plan: Free
